@@ -13,6 +13,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+//New code change for testing
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
